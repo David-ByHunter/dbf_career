@@ -3,12 +3,12 @@ import { aboutMeHome } from '@/helpers/main';
 </script>
 
 <template>
-<section 
+<section
     v-for="(info,i) in aboutMeHome"
     :key="i"
-    class="flex-col"
+    class="flex flex-col justify-center items-center"
 >
-    <h2>{{ info.field }}</h2>
-    <span>{{ info.description }}</span>
+    <div class="text-xl font-bold">{{ info.field }}</div>
+    <div>{{ info.description }}</div>
 </section>
 </template>
