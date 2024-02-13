@@ -4,7 +4,7 @@ import { Menu} from '@/helpers/menu'
 
 <template>
     <nav class="bg-gradient-to-b from-zinc-600 to-zinc-800 rounded-r">
-        <ul class="m-6">
+        <ul class="m-2">
             <li v-for="(item, i) in Menu"
                 :key="i"
             >
