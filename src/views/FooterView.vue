@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <footer class = "bg-sky-800">
+    <footer>
         <h2>David Barrero</h2>
     </footer>
 </template>
