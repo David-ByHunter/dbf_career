@@ -8,7 +8,7 @@ import { Menu} from '@/helpers/menu'
             <li v-for="(item, i) in Menu"
                 :key="i"
             >
-                <button class="min-w-20 rounded-full bg-sky-200 hover:bg-sky-300 m-2 p-2">
+                <button @click="$router.push({name: item})" class="min-w-20 rounded-full bg-sky-200 hover:bg-sky-300 m-2 p-2">
                         {{ item }}
                 </button>
             </li>
