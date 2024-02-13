@@ -1,8 +1,9 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
     <section>
-        <h2>ESTIEM</h2>
+        <div class="font-bold">Career</div>
     </section>
 </template>
