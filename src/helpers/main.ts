@@ -10,5 +10,9 @@ export const aboutMeHome:AboutMe[] = [
     {
         field: "Studies",
         description: "I started the university back in 2019 ... "
+    },
+    {
+        field: "Hobbies",
+        description: "Why do not follow the things I have passion for? Like medieval things."
     }
 ];
