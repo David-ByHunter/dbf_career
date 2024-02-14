@@ -23,8 +23,8 @@ console.log(positionsESTIEM)
             </li>
         </ul>
         <div class="flex flex-wrap *:m-2 *:italic *:border-2 *:border-zinc-400 *:p-2 *:rounded-xl">
-            <a :href="linksESTIEM[0].description" target="_blank" class="hover:bg-zinc-200 hover:opacity-80">{{ linksESTIEM[0].field }}</a>
-            <a :href="linksESTIEM[1].description" target="_blank" class="hover:bg-zinc-200 hover:opacity-80">{{ linksESTIEM[1].field }}</a>
+            <a :href="linksESTIEM[0].description" target="_blank" class="hover:bg-zinc-200 hover:opacity-60 hover:text-zinc-600">{{ linksESTIEM[0].field }}</a>
+            <a :href="linksESTIEM[1].description" target="_blank" class="hover:bg-zinc-200 hover:opacity-60 hover:text-zinc-600">{{ linksESTIEM[1].field }}</a>
         </div>
     </section>
 </template>
