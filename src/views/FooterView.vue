@@ -4,7 +4,7 @@ import { infoFooter } from '@/helpers/footer'
 
 <template>
     <footer class="flex justify-end items-center">
-        <span class="italic font-light">
+        <span class="m-2 italic font-light">
             {{ infoFooter.info }}
         </span>
         <a
