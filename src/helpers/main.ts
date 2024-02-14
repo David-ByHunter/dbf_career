@@ -54,16 +54,26 @@ export const carrerSkills : skill[] = [
     }
 ]
 // ESTIEM
+export const linksESTIEM :f_d[] = [
+    {
+        field:"ESTIEM",
+        description: "https://estiem.org/"
+    },
+    {
+        field: "ESTIEM LG Seville",
+        description: "https://estiemlgseville.org/"
+    }
+]
 export const meaningESTIEM : f_d = {
     field: "ESTIEM",
     description: "ESTIEM is a non-profit organization for Industrial Engineering and Management (IEM) students who combine technological understanding with management skills. Founded in 1990, our goal is to foster relations between IEM students and support their professional and personal development."
 }
 export const positionsESTIEM : position[] = [
     {
-        position: "Public Relations Responsible",
+        position: "Public Relations Responsible"
     },
     {
-        position: "IT Committe Leader",
+        position: "IT Committe Leader" 
     }
 ]
 export const eventsESTIEM : events[] = [

@@ -6,7 +6,7 @@ import EstiemVue from './EstiemVue.vue';
 
 <template>
     <section class="flex flex-col justify-start items-left m-4">
-        <span class="font-bold underline underline-offset-8 decoration-4">
+        <span class="font-bold text-xl underline underline-offset-8 decoration-4">
             {{ carrerName }}
         </span>
         <ul class="m-2">
