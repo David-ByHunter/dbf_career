@@ -1,12 +1,20 @@
+// Interfaces
 interface f_d {
     field:string,
     description:string
 }
 interface skill {
-    priority?: number,
     skill: string,
     description?: string,
+    priority?: number,
 }
+interface position {
+    position: string,
+    dateStart?: Date,
+    dateEnd?: Date | "present"
+    description?: string
+}
+// Variables
 export const aboutMeHome:f_d[] = [
     {
         field: "Who am I?",
@@ -21,18 +29,42 @@ export const aboutMeHome:f_d[] = [
         description: "Engineering isn't everything in my life. I also invest my time in various topics, such as medieval things and travelling."
     }
 ];
-export const carrerName: string= "Degree in Industrial Engineering"
+// Carrer
+export const carrerName: string= "Industrial Engineering"
 export const carrerSkills : skill[] = [
     {
-        skill:"MATLAB"
+        skill: "Electronic Engineering"
     },
     {
         skill:"Power electronics"
     },
     {
-        skill: "Microcontrollers"
+        skill:"MATLAB"
     },
     {
-        skill: "Electronic Engineering"
+        skill: "Microcontrollers"
+    }
+]
+// ESTIEM
+export const meaningESTIEM : f_d = {
+    field: "ESTIEM",
+    description: "ESTIEM is a non-profit organization for Industrial Engineering and Management (IEM) students who combine technological understanding with management skills. Founded in 1990, our goal is to foster relations between IEM students and support their professional and personal development."
+}
+export const positionsESTIEM : position[] = [
+    {
+        position: "Public Relations Responsible",
+    },
+    {
+        position: "IT Committe Leader",
+    }
+]
+export const eventsESTIEM : f_d[] = [
+    {
+        field: "Council Meeting LXIII Seville",
+        description: ""
+    },
+    {
+        field: "Vision IoT Sofia",
+        description: ""
     }
 ]
