@@ -10,6 +10,5 @@ import { meaningESTIEM } from '@/helpers/main';
             <span class="font-bold italic underline underline-offset-8 decoration-4">{{ meaningESTIEM.field }}</span>
             <span class="m-4 italic">{{ meaningESTIEM.description }}</span>
         </div>
-
     </section>
 </template>

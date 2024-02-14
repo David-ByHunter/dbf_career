@@ -14,6 +14,14 @@ interface position {
     dateEnd?: Date | "present"
     description?: string
 }
+interface events {
+    name: string,
+    rol: "participant" | "organiser",
+    place: string
+    description?: string
+    dateStart?: Date,
+    dateEnd?: Date
+}
 // Variables
 export const aboutMeHome:f_d[] = [
     {
@@ -58,13 +66,15 @@ export const positionsESTIEM : position[] = [
         position: "IT Committe Leader",
     }
 ]
-export const eventsESTIEM : f_d[] = [
+export const eventsESTIEM : events[] = [
     {
-        field: "Council Meeting LXIII Seville",
-        description: ""
+        name: "Council Meeting LXIII",
+        rol: "organiser",
+        place: "Seville"
     },
     {
-        field: "Vision IoT Sofia",
-        description: ""
+        name: "Vision IoT",
+        rol: "participant",
+        place: "Sofia"
     }
 ]
