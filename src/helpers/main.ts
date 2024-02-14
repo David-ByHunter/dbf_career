@@ -4,7 +4,7 @@ interface AboutMe {
 }
 export const aboutMeHome:AboutMe[] = [
     {
-        field: "Personal",
+        field: "Who am I?",
         description: "I consider myself someone willing to create a positive impact on my environment. In my opinion, when someone shows their best, people around will be influenced by it. That is how I intend to live my life."
     },
     {
