@@ -24,7 +24,7 @@ body{
     "Menu Main"
     "Footer Footer"
   ;
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: auto auto 60px;
 }
 </style>
