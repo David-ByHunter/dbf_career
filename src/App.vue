@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import MenuView from './views/MenuView.vue';
 import FooterView from './views/FooterView.vue';
+import BackToTopBtn from './components/BackToTopBtn.vue';
 </script>
 
 <template>
     <MenuView class="[grid-area:Menu]"/>
     <RouterView class="[grid-area:Main]"/>
     <FooterView class="[grid-area:Footer]" />
+    <BackToTopBtn />
 </template>
 
 <style>
@@ -24,7 +26,7 @@ body{
     "Menu Main"
     "Footer Footer"
   ;
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: auto auto 60px;
 }
 </style>

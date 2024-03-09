@@ -1,17 +1,28 @@
 <script setup lang="ts">
 import { Menu} from '@/helpers/menu'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { ref } from 'vue';
+const state = ref(false)
+const changeState = () => {
+    state.value = !state.value
+}
 </script>
 
 <template>
-    <nav class="bg-gradient-to-b from-zinc-600 to-zinc-800 rounded-r">
-        <ul class="m-2">
-            <li v-for="(item, i) in Menu"
-                :key="i"
-            >
-                <button @click="$router.push({name: item})" class="min-w-20 rounded-full bg-zinc-400 hover:opacity-60 m-2 p-2">
-                        {{ item }}
-                </button>
-            </li>
-        </ul>
-    </nav>
+    <div class="bg-gradient-to-b from-zinc-600 to-zinc-800 rounded-r flex flex-col justify-start items-center ">
+        <button @click="changeState" class="m-4">
+            <font-awesome-icon class="size-8" icon="fas fa-bars" />
+        </button>
+        <nav v-show="state">
+            <ul class="m-2">
+                <li v-for="(item, i) in Menu"
+                    :key="i"
+                >
+                    <button @click="$router.push({name: item})" class="min-w-20 rounded-full bg-zinc-400 hover:opacity-60 m-2 p-2">
+                            {{ item }}
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </template>
