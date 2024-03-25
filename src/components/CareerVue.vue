@@ -11,7 +11,7 @@ import EstiemVue from './EstiemVue.vue';
         </span>
         <ul class="m-2">
             <li 
-                class="m-4 p-4 rounded-full border-2 border-zinc-400"
+                class="m-4 p-4 rounded-full border-2 border-secondary"
                 v-for="ref in carrerSkills"
                 :key="ref.skill"
             >

@@ -9,7 +9,7 @@ const changeState = () => {
 </script>
 
 <template>
-    <div class="bg-gradient-to-b from-zinc-600 to-zinc-800 rounded-r flex flex-col justify-start items-center ">
+    <div class="bg-gradient-to-b from-primary to-secondary rounded-r flex flex-col justify-start items-center ">
         <button @click="changeState" class="m-4">
             <font-awesome-icon class="size-8" icon="fas fa-bars" />
         </button>
@@ -18,7 +18,7 @@ const changeState = () => {
                 <li v-for="(item, i) in Menu"
                     :key="i"
                 >
-                    <button @click="$router.push({name: item})" class="min-w-20 rounded-full bg-zinc-400 hover:opacity-60 m-2 p-2">
+                    <button @click="$router.push({name: item})" class="min-w-20 rounded-full bg-accent hover:opacity-60 m-2 p-2">
                             {{ item }}
                     </button>
                 </li>

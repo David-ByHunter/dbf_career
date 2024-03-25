@@ -13,7 +13,7 @@ console.log(positionsESTIEM)
         <span class="ml-2 font-bold underline underline-offset-4 decoration-2">Positions</span>
         <ul class="m-2">
             <li 
-                class="m-4 p-4 rounded-full bg-zinc-600"
+                class="m-4 p-4 rounded-full bg-secondary"
                 v-for="ref in positionsESTIEM"
                 :key="ref.position"
             >
@@ -22,9 +22,9 @@ console.log(positionsESTIEM)
                 </span>
             </li>
         </ul>
-        <div class="flex flex-wrap *:m-2 *:italic *:border-2 *:border-zinc-400 *:p-2 *:rounded-xl">
-            <a :href="linksESTIEM[0].description" target="_blank" class="hover:bg-zinc-200 hover:opacity-60 hover:text-zinc-600">{{ linksESTIEM[0].field }}</a>
-            <a :href="linksESTIEM[1].description" target="_blank" class="hover:bg-zinc-200 hover:opacity-60 hover:text-zinc-600">{{ linksESTIEM[1].field }}</a>
+        <div class="flex flex-wrap *:m-2 *:italic *:border-2 *:border-secondary *:p-2 *:rounded-xl">
+            <a :href="linksESTIEM[0].description" target="_blank" class="hover:bg-primary hover:opacity-60 hover:text-accent">{{ linksESTIEM[0].field }}</a>
+            <a :href="linksESTIEM[1].description" target="_blank" class="hover:bg-primary hover:opacity-60 hover:text-accent">{{ linksESTIEM[1].field }}</a>
         </div>
     </section>
 </template>
