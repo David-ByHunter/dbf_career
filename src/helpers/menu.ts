@@ -3,5 +3,5 @@ export const Menu:string[] = [
 ]
 export const iconMenu:string[] = [
     'fas fa-house',
-    'fas fa-address-card'
+    'fas fa-gear'
 ]
