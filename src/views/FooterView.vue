@@ -12,7 +12,7 @@ import { infoFooter } from '@/helpers/footer'
             :key="i"
             :href="ref"
             target="_blank"
-            class="hover:opacity-80"
+            class="hover:opacity-80 hover:scale-110"
         >
             <font-awesome-icon class="m-2 size-8" :icon="infoFooter.icons[i]" />
         </a>
