@@ -9,7 +9,7 @@ const changeState = () => {
 </script>
 
 <template>
-    <div class="bg-gradient-to-b from-primary to-secondary rounded-r flex flex-col justify-start items-center ">
+    <div class="bg-gradient-to-b from-secondary to-primary rounded-r flex flex-col justify-start items-center ">
         <button @click="changeState" class="m-4">
             <font-awesome-icon class="size-8" icon="fas fa-bars" />
         </button>
