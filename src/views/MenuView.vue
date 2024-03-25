@@ -18,7 +18,7 @@ const changeState = () => {
                 <li v-for="(item, i) in Menu"
                     :key="i"
                 >
-                    <button @click="$router.push({name: item})" class="min-w-20 rounded-full bg-accent hover:opacity-60 m-2 p-2">
+                    <button @click="$router.push({name: item})" class="min-w-20 rounded-full bg-accent font-bold text-primary hover:opacity-60 m-2 p-2">
                             {{ item }}
                     </button>
                 </li>
