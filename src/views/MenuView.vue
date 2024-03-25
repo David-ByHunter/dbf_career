@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Menu} from '@/helpers/menu'
+import { iconMenu } from '@/helpers/menu'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { ref } from 'vue';
 const state = ref(false)
@@ -13,6 +14,17 @@ const changeState = () => {
         <button @click="changeState" class="m-4">
             <font-awesome-icon class="size-8" icon="fas fa-bars" />
         </button>
+        <nav v-show="!state">
+            <ul class="m-2">
+                <li v-for="(item, i) in Menu"
+                    :key="i"
+                >
+                    <button @click="$router.push({name: item})" class="m-2 hover:opacity-60">
+                            <font-awesome-icon class="size-8" :icon="iconMenu[i]"/>
+                    </button>
+                </li>
+            </ul>
+        </nav>
         <nav v-show="state">
             <ul class="m-2">
                 <li v-for="(item, i) in Menu"
