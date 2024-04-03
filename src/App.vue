@@ -33,5 +33,7 @@ body{
   ;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto auto 60px;
+  background-color: var(--color-primary);
+  color: var(--color-accent);
 }
 </style>
