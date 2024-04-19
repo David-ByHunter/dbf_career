@@ -18,9 +18,11 @@ import BackToTopBtn from './components/BackToTopBtn.vue';
   --color-accent: #ffc300;
 }
 body{
+  display: inline-block;
   height: 100vh;
-  width: 100vm;
-  margin: 0;
+  width: 100%;
+  background-color: var(--color-primary);
+
 }
 #app {
   height: inherit;
