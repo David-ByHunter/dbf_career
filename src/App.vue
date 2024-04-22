@@ -13,9 +13,9 @@ import BackToTopBtn from './components/BackToTopBtn.vue';
 
 <style>
 :root {
-  --color-primary: #001d3d;
-  --color-secondary: #003566;
-  --color-accent: #ffc300;
+  --color-primary: #1e0342;
+  --color-secondary: #0e46a3;
+  --color-accent: rgb(255, 200, 0);
 }
 body{
   display: inline-block;
