@@ -4,15 +4,15 @@ import { infoFooter } from '@/helpers/footer'
 
 <template>
     <footer class="flex justify-end items-center">
-        <span class="m-2 italic font-light">
-            {{ infoFooter.info }}
-        </span>
         <a
             v-for="(ref,i) in infoFooter.linkIcons"
             :key="i"
+            class="mx-1 hover:scale-110"
             :href="ref"
+            :alt="infoFooter.title[i]"
             target="_blank"
-            class="mx-1 hover:opacity-80 hover:scale-110"
+            :aria-label="infoFooter.title[i]"
+
         >
             <font-awesome-icon class="m-2 size-8" :icon="infoFooter.icons[i]" />
         </a>
