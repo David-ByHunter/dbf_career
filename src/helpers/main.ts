@@ -26,17 +26,20 @@ interface events {
 export const carrerName: string= "Industrial Engineering"
 export const carrerSkills : skill[] = [
     {
-        skill: "Electronic Engineering"
+        skill: "Electronics"
     },
     {
-        skill:"Power electronics"
+        skill: "Vue.js"
     },
     {
-        skill:"MATLAB"
+        skill:"MS Office"
     },
     {
-        skill: "Microcontrollers"
-    }
+        skill:"Leadership"
+    },
+    {
+        skill:"Teamwork"
+    },
 ]
 // ESTIEM
 export const linksESTIEM :f_d[] = [
