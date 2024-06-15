@@ -9,7 +9,7 @@ console.log(positionsESTIEM)
 <template>
     <section class="flex flex-col justify-start items-left m-4">
         <span class="font-bold text-xl italic underline underline-offset-8 decoration-4">{{ meaningESTIEM.field }}</span>
-        <span class="m-4 italic text-justify">{{ meaningESTIEM.description }}</span>
+        <span class="m-4 italic">{{ meaningESTIEM.description }}</span>
         <span class="ml-2 font-bold underline underline-offset-4 decoration-2">Positions</span>
         <ul class="m-2">
             <li 
