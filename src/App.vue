@@ -11,9 +11,9 @@ import BackToTopBtn from './components/BackToTopBtn.vue';
 
 <style>
 :root {
-  --color-primary: rgb(30, 3, 66);
-  --color-secondary: rgb(14, 70, 163);
-  --color-accent: rgb(255, 200, 0);
+  --color-primary: rgb(10, 25, 47); /* Azul muy oscuro */
+  --color-secondary: rgb(42, 82, 109); /* Azul oscuro pero más claro */
+  --color-accent: rgb(255, 200, 0); /* Amarillo brillante */
 }
 body{
   display: inline-block;
