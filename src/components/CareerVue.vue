@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import { carrerName } from '@/helpers/main';
-import { carrerSkills } from '@/helpers/main';
-import EstiemVue from './EstiemVue.vue';
+import { carrerName, carrerSkills } from '@/helpers/main';
+import EstiemVue from '@/components/EstiemVue.vue';
 </script>
 
 <template>
