@@ -3,7 +3,6 @@ import { meaningESTIEM } from '@/helpers/main';
 import { positionsESTIEM } from '@/helpers/main';
 // import { eventsESTIEM } from ç'@/helpers/main';
 import { linksESTIEM } from '@/helpers/main';
-console.log(positionsESTIEM);
 </script>
 
 <template>
