@@ -1,3 +1,5 @@
+import type { VueElement } from "vue";
+
 // Interfaces
 interface f_d {
   field: string;
@@ -45,6 +47,15 @@ export const carrerSkills: skill[] = [
   {
     skill: 'Teamwork',
   },
+  {
+    skill: 'Decision-Making',
+  },
+  {
+    skill: 'Illustrator',
+  },
+  {
+    skill: 'InDesign',
+  }
 ];
 // ESTIEM
 export const linksESTIEM: f_d[] = [
