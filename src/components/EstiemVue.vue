@@ -27,18 +27,18 @@ import { linksESTIEM } from '@/helpers/main';
       </li>
     </ul>
     <div
-      class="flex flex-wrap *:m-2 *:italic *:border-2 *:border-secondary *:p-2 *:rounded-xl"
+      class="flex flex-wrap gap-x-4 *:italic *:border *:border-accent *:px-2 *:py-1"
     >
       <a
         :href="linksESTIEM[0].description"
         target="_blank"
-        class="hover:bg-accent hover:text-secondary"
+        class="hover:bg-accent hover:text-primary"
         >{{ linksESTIEM[0].field }}</a
       >
       <a
         :href="linksESTIEM[1].description"
         target="_blank"
-        class="hover:bg-accent hover:text-secondary"
+        class="hover:bg-accent hover:text-primary"
         >{{ linksESTIEM[1].field }}</a
       >
     </div>
