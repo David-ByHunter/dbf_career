@@ -7,16 +7,18 @@ import AboutMe from './AboutMe.vue';
 <template>
   <section class="flex flex-col justify-start items-left m-4">
     <AboutMe />
-    <span class="font-bold text-xl underline underline-offset-8 decoration-4">
+    <span
+      class="font-bold text-xl underline underline-offset-8 decoration-4 mb-4"
+    >
       {{ carrerName }}
     </span>
-    <ul class="m-2">
+    <ul class="flex flex-wrap gap-4">
       <li
-        class="m-4 p-4 rounded-full border-2 border-secondary"
+        class="py-1 px-2 rounded-full border-2 border-secondary"
         v-for="ref in carrerSkills"
         :key="ref.skill"
       >
-        <span class="italic">
+        <span class="text-sm">
           {{ ref.skill }}
         </span>
         <!-- TODO: Make description appear on hover -->
