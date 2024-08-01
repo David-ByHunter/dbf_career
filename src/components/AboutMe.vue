@@ -7,6 +7,6 @@ import { aboutMe } from '@/helpers/main';
       <span class="font-bold text-xl underline underline-offset-8 decoration-4">
         {{ aboutMe.field }}
       </span>
-      <span class="m-4 italic">{{ aboutMe.description }}</span>
+      <span class="m-4 text-lg">{{ aboutMe.description }}</span>
     </section>
 </template>

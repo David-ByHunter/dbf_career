@@ -25,7 +25,7 @@ interface events {
 // About me
 export const aboutMe: f_d = { 
   field: 'David Barrero',
-  description: 'Student of Industrial Engineering & Electronic & Automation who is always involving himself in new projects. Always trying to impact the students, the education and the NGOs in order to develop myself and others.'
+  description: 'Student of Industrial Engineering. Always trying to impact the students, the education and the NGOs in order to develop myself and others.'
 }
 // Carrer
 export const carrerName: string = 'Industrial Engineering';
