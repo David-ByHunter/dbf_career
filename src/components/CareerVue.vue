@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { carrerName, carrerSkills } from '@/helpers/main';
 import EstiemVue from '@/components/EstiemVue.vue';
+import AboutMe from './AboutMe.vue';
 </script>
 
 <template>
   <section class="flex flex-col justify-start items-left m-4">
+    <AboutMe />
     <span class="font-bold text-xl underline underline-offset-8 decoration-4">
       {{ carrerName }}
     </span>

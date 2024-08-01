@@ -23,7 +23,10 @@ interface events {
   dateEnd?: Date;
 }
 // About me
-export const myName: string = 'David Barrero';
+export const aboutMe: f_d = { 
+  field: 'David Barrero',
+  description: 'Student of Industrial Engineering. Always trying to impact the students, the education and the NGOs in order to develop myself and others.'
+}
 // Carrer
 export const carrerName: string = 'Industrial Engineering';
 export const carrerSkills: skill[] = [
