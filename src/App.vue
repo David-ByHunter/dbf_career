@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import { Analytics } from '@vercel/analytics/vue';
 import FooterView from './views/FooterView.vue';
 import BackToTopBtn from './components/BackToTopBtn.vue';
 </script>
 
 <template>
+  <Analytics />
   <RouterView class="[grid-area:Main]" />
   <FooterView class="[grid-area:Footer]" />
   <BackToTopBtn />
